@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<Feature Scope="Web"
+         Title="Document Control Auto Versioning"
+         Description="Inserts the SharePoint version number of a document into the document."
+         Id="94365F4F-9F8C-42cf-878B-B226318D3EE4"
+         xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ElementManifests>
+    <ElementManifest Location="elements.xml" />
+  </ElementManifests>
+</Feature>

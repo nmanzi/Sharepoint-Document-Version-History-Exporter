@@ -1,0 +1,23 @@
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Receivers ListTemplateId="101">
+    <Receiver>
+      <Name>ItemUpdated</Name>
+      <Type>ItemUpdated</Type>
+      <SequenceNumber>10010</SequenceNumber>
+      <Assembly>DocVersion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=09a6acee88dae678</Assembly>
+      <Class>DocVersion.DocVersionEventReciever</Class>
+      <Data />
+      <Filter />
+    </Receiver>
+
+    <Receiver>
+      <Name>ItemAdded</Name>
+      <Type>ItemAdded</Type>
+      <SequenceNumber>10010</SequenceNumber>
+      <Assembly>DocVersion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=09a6acee88dae678</Assembly>
+      <Class>DocVersion.DocVersionEventReciever</Class>
+      <Data />
+      <Filter />
+    </Receiver>
+  </Receivers>
+</Elements>
